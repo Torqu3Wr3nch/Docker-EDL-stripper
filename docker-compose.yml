@@ -1,0 +1,7 @@
+version: '3'
+services:
+  edlstripper:
+    build: .              # Build image locally for development purposes
+    restart: always
+    volumes:
+      - edlRecordings:/recordings
